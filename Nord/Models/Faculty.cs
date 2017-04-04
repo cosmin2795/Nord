@@ -19,6 +19,7 @@ namespace Nord.Models
         [Required]
         public string Type { get; set; }
         [Required]
+        [Display(Name="Date of creation")]
         public int DateOfCreation { get; set; }
     }
 }
