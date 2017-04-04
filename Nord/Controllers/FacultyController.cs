@@ -33,7 +33,7 @@ namespace Nord.Controllers
                 return RedirectToAction("Index");
             }
             else
-            {
+            { //comm
                 return View();
             }
         }
