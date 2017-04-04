@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row margin-top-20">
+    <div class="col-md-6">
+        <a href="@Url.Action("Index", "Student")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-user margin-right-10"></span>View Students</a>
+        <a href="@Url.Action("Index", "Cours")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-book margin-right-10"></span>View Notes</a>
+        <a href="@Url.Action("Index", "Faculty")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-home margin-right-10"></span>View Faculties</a>
+    </div>
+    <div class="col-md-6">
+        <a href="@Url.Action("Create", "Student")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-user margin-right-10"></span>Add Students</a>
+        <a href="@Url.Action("Create", "Cours")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-book margin-right-10"></span>Add Notes</a>
+        <a href="@Url.Action("Create", "Faculty")" class="btn btn-primary btn-sm btn-block"><span class="glyphicon glyphicon-home margin-right-10"></span>Add Faculties</a>
+    </div>
+</div>
+
